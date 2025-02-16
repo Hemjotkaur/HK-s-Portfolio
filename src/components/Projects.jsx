@@ -20,7 +20,9 @@ const portfolios = () => {
       },
       {
         id:3,
-        src:portfolioimage
+        src:portfolioimage,
+        href:"https://hk-portfolio-gamma.vercel.app/",
+        link:"https://github.com/Hemjotkaur/HK-s-Portfolio"
       },
     ]
 
