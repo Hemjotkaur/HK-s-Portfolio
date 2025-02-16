@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+
+
+@import "tailwindcss";
+
+
+
+
+.hemjot-style {
+    font-family: "Imperial Script", serif;
+    font-weight: 400;
+    font-style: normal;
+   
+  }
