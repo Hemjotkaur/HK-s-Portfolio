@@ -58,18 +58,12 @@ const Experience = () => {
         },
         {
             id:8,
-            src: streamlit,
-            title:'STREAMLIT',
-            style: 'shadow-red-500'
-        },
-        {
-            id:9,
             src: github,
             title:'Github',
             style: 'shadow-gray-400'
         },
         {
-            id:10,
+            id:9,
             src: vercel,
             title:'Vercel',
             style: 'shadow-gray-400'
@@ -92,8 +86,8 @@ const Experience = () => {
              tech.map(({id,src,title,style}) =>(
                 <div 
                     key={id}
-                    className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-                <img src={src} alt='' className='w-15 mx-auto'/>
+                    className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg  ${style}`}>
+                <img  src={src} alt='' className='w-15 mx-auto animate-bounce'/>
                 <p className='mt-4'>{title}</p>
                 </div>
 

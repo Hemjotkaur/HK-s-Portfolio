@@ -1,5 +1,5 @@
 import React from "react";
-import dynamic from "../assets/dynamic.png"
+import pomo from "../assets/pomo.png"
 import gemini from "../assets/Gemini.png"
 import portfolioimage from "../assets/portfolio.png"
 import { FaGithub } from 'react-icons/fa'
@@ -15,8 +15,9 @@ const portfolios = () => {
       },
       {
         id:2,
-        src: dynamic,
-        link:"https://github.com/Hemjotkaur/Human-Pose-Estimation-OpenCV"
+        src: pomo,
+        href:"https://pomodoro-timer-dun-delta.vercel.app/",
+        link:"https://github.com/Hemjotkaur/Pomodoro-Timer"
       },
       {
         id:3,

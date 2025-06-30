@@ -33,7 +33,7 @@ const Navbar = () => {
   return (
     <div className='flex justify-between items-center w-full h-20 text-white fixed bg-black px-4 shadow-md shadow-gray-800'>
      <div>
-        <h1 className='text-5xl ml-2 hemjot-style '>HK</h1>
+        <h1 className='text-5xl ml-2 hemjot-style hover:animate-spin '>HK</h1>
         </div>
         <ul className="hidden md:flex">
             {
